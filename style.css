@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 0.25px solid rgb(34, 34, 170);
+  border-style: dashed;
+  margin: 0 20%;
+  padding: 0 0 10px 0;
+  align-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #00006b;
+}
+
+.material-icons {
+  color: #808080;
+}
+.tool-bar {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 72px;
+  border: 0.25px solid rgb(34, 34, 170);
+  border-style: dashed;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 74px 85px 5px 85px;
+  border: 0.25px solid rgb(34, 34, 170);
+  border-style: dashed;
+  height: auto;
+}
+
