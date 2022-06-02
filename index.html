@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
   </head>
@@ -12,16 +15,23 @@
     <header class="tool-bar">
       <nav class="left-bar">
         <p>Frank</p>
-        <span><i id="menu" class="material-icons">menu</i></span>
+        <button>
+          <i id="menu" class="material-icons">menu</i>
+        </button>
       </nav>
       <nav class="nav-links">
         <a href="#">Portfolio</a>
         <a href="#">About</a>
         <a href="#">Contacts</a>
-        <span><i class="material-icons">menu</i></span>
+        <button>
+          <i id="email" class="material-icons">email</i>
+        </button>
       </nav>
     </header>
     <main class="main-container">
+
+      <p class="main-img" style="background-image: url('./images/circle\ 1\ header@2x.jpg');"></p>
+      
       <div>
         <h1 class="name"><strong>Frank Tembo</strong></h1>
         <p class="occupation"><strong>Software Developer</strong></p>
@@ -45,7 +55,7 @@
             </ul>
           </div>
           <div class="lang">
-            <h5><strong>Frameworks</strong></h5>
+            <h5><strong>Frameworks:</strong></h5>
             <ul>
               <li>Bootstrap</li>
               <li>Ruby on Rails</li>
@@ -55,7 +65,7 @@
             </ul>
           </div>
           <div class="lang">
-            <h5><strong>Skills</strong></h5>
+            <h5><strong>Skills:</strong></h5>
             <ul>
               <li>CodeKit</li>
               <li>GitHub</li>
@@ -65,28 +75,23 @@
             </ul>
           </div>
         </div>
+        <hr>
       </div>
-
-      
-      <hr>
 
       <div class="footer">
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 52 25">==$0 
-          <path class="github-icon-svg-header" d="">
-          </path>
-        </svg>
-
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 52 25">==$0 
-          <path class="twitte-icon-svg-header" d="">
-          </path>
-        </svg>
-
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 52 25">==$0 
-          <path class="medium-icon-svg-header" d="">
-          </path>
-        </svg>
-        <p></p>
+        <p class="wd">work-down</p>
+        <nav>
+        <a href="#" class="fa fa-github"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-medium"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        </nav>
+        <p class="wd2">work-down</p>
       </div>
+
+      <hr>
+
     </main>
   </body>
 </html>
