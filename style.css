@@ -4,22 +4,35 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+}
+@media (min-width: 640px) {
+  body {font-size: 1rem;}
+}
+@media (min-width: 960px) {
+  body {font-size: 1.2rem;}
+}
+@media (min-width: 1100px) {
+  body {font-size: 1.5rem;}
+}
+
+img { max-width: 100%; }
+
+@media screen and (max-width: 1060px) {
+  #primary { width: 65%; }
+  .secondary { width: 32%; margin-left: 3%; }
+}
+@media screen and (max-width: 768px) {
+  #primary { width: 100%; }
+  .secondary { width: 100%; display: none; margin: 0; border: none; }
+}
+
 body {
+  font-family: 'Times New Roman', Times, serif;
   border: 0.25px solid rgb(34, 34, 170);
   border-style: dashed;
-  margin: 1% 16%;
-  padding: 0 0 10px 0;
-  align-content: center;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: #00006b;
-}
-.main-img {
-  position: absolute;
-  width: 164;
-  height: 164;
-  top: 230px;
-  left: 69;
-  background-repeat: no-repeat;
+  background-color: #808080;
 }
 
 button {
@@ -40,19 +53,34 @@ button .material-icons {
 }
 .tool-bar {
   display: flex;
-  padding-top: 23px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0 72px 20px 72px;
-  height: 72px;
+  background-color: #00006b;
+  padding: 16px;
+  height: 65px;
   justify-content: space-between;
+  align-items: center;
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
+}
+.main-content {
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
+  height: 100%;
+  margin: 0 1% 25px 1%;
+}
+
+.scroll-bar {
+  height: 100%;
+  width: 16%;
+  overflow-y: hidden;
+  background-color: #B3BAC5;
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 15px 85px 5px 85px;
+  background-color: #00006b;
+  min-height: 100vh;
 }
 
 .left-bar {
@@ -80,19 +108,23 @@ main {
   color: #6495ed;
   text-align: center;
   padding: 35px 0;
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
 }
 .occupation {
   color: #808080;
   text-align: center;
   font-weight: 400;
   font-size: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 .prof {
   display: flex;
   flex-direction: column;
   padding: 8px 5%;
-  margin: 20px 100px 20px 100px;
+  margin: 20px 130px 20px 130px;
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
 }
 .prof p {
   color: #B3BAC5;
@@ -109,6 +141,11 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 20px 25px;
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
+}
+.lang-skills .lang {
+  flex-grow: 0;
 }
 h5 {
   font-size: 20px;
@@ -134,6 +171,8 @@ h5 {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  border: 0.25px solid #6495ed;
+  border-style: dashed;
 }
 .footer .fa {
   padding: 10px;  
