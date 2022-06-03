@@ -26,17 +26,16 @@ img { max-width: 100%; }
 @media screen and (max-width: 768px) {
   #primary { width: 100%; }
   .secondary { width: 100%; display: none; margin: 0; border: none; }
+  .prof { width: 100%; margin: 0; padding: 0; border:none; }
 }
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  border: 0.25px solid rgb(34, 34, 170);
-  border-style: dashed;
-  background-color: #808080;
+  background-color: rgb(34, 34, 170);
 }
 
 button {
-  background-color: #00006b;
+  background-color: #00008c;
   cursor: pointer;
   border-style: none;
 }
@@ -46,26 +45,45 @@ button .material-icons {
 }
 #menu {
   margin-left: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 #email {
   margin-bottom: 5px;
 }
 .tool-bar {
   display: flex;
-  background-color: #00006b;
-  padding: 16px;
+  background-color: #00008c;
+  padding: 0 17%;
   height: 65px;
   justify-content: space-between;
   align-items: center;
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
 }
 .main-content {
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
+  background-color: #00006b;
   height: 100%;
-  margin: 0 1% 25px 1%;
+  margin: 0 8.2% 25px 8.2%;
+}
+.main-content .circle-1 {
+  background-image: url('./images/circle\ 1\ header@2x.jpg');
+  background-position: left;
+  background-size: 16%;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+}
+.main-content .about-me{
+  background-image: url('./images/circle\ 2\ hder@2x.png');
+  background-position: right;
+  background-size: 18%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 100px 40px 100px;
 }
 
 .scroll-bar {
@@ -73,13 +91,11 @@ button .material-icons {
   width: 16%;
   overflow-y: hidden;
   background-color: #B3BAC5;
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
 }
 
 main {
   display: flex;
-  background-color: #00006b;
+  justify-content: center;
   min-height: 100vh;
 }
 
@@ -87,12 +103,14 @@ main {
   display: flex;
 }
 .left-bar p {
-  color: #808080;
-  padding-top: 10px;
+  color: #B3BAC5;
+  padding-top: 6px;
+  font-size: 20px;
 }
 
 .nav-links a {
   cursor: pointer;
+  font-size: 20px;
   color: #808080;
   align-items: center;
   padding-right: 10px;
@@ -108,8 +126,6 @@ main {
   color: #6495ed;
   text-align: center;
   padding: 35px 0;
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
 }
 .occupation {
   color: #808080;
@@ -120,47 +136,46 @@ main {
 }
 .prof {
   display: flex;
+  width: 447;
   flex-direction: column;
-  padding: 8px 5%;
-  margin: 20px 130px 20px 130px;
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
+  padding: 8px 4% 60px 4%;
+  margin: auto;
 }
 .prof p {
   color: #B3BAC5;
   order: 0;
   flex-grow: 0;
+  margin: 10px 20px 25px 20px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 16px;
   line-height: 32px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 .lang-skills {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 20px 25px;
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
+  padding: 20px 35px;
 }
 .lang-skills .lang {
   flex-grow: 0;
+  display: flex;
+  flex-direction: column;
 }
 h5 {
   font-size: 20px;
-  font-weight: 380;
+  font-weight: 300;
   color: cornflowerblue; /* hex: #6495ed */
 }
 .lang ul, li {
   color: bisque;
   padding: 2px;
+  font-size: 16px;
   list-style-type: none;
 }
-.lang {
-  display: flex;
-  flex-direction: column;
-}
+
 .work {
   display: flex;
   align-items: center;
@@ -171,16 +186,14 @@ h5 {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  border: 0.25px solid #6495ed;
-  border-style: dashed;
 }
 .footer .fa {
   padding: 10px;  
   text-align: center;  
   margin: 5px 4px;  
   font-size: 24px;  
-  width: 32px;
-  color: #606060;
+  max-width: 32px;
+  color: #B3BAC5;
   background: #00006b;
   text-decoration: none;
 } 
@@ -195,5 +208,6 @@ h5 {
 }
 .footer p {
   color: #808080;
+  font-size: 18px;
 }
 
