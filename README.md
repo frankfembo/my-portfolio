@@ -4,9 +4,10 @@
 
 >In the above named project, I have:
 
-- **setup github actions**
-- **setup linters locally**
-- **created an index.html file**
+- **Setup github actions**
+- **Setup linters locally**
+- **Added media queries for responsiveness**
+- **Created an index.html file**
 - **Added boilerplate HTML code to index.html as projects**
   **template**
 - **Created style.css file**
@@ -46,9 +47,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gfrankfembo](https://github.com/frankfembo)
+- Twitter: [@Frank-Te](https://twitter.com/frankte147)
+- LinkedIn: [Frank-Tembo](https://linkedin.com/in/frank-tembo)
 
 👤 **Author2**
 
