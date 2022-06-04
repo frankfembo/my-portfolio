@@ -40,12 +40,12 @@ img { max-width: 100%; }
     margin: 0;
     border: none;
   }
-  
+
   .prof {
     width: 100%;
     margin: 0;
     padding: 0;
-    border:none;
+    border: none;
   }
 }
 
@@ -204,7 +204,8 @@ h5 {
   color: cornflowerblue;
 }
 
-.lang ul, li {
+.lang ul,
+li {
   color: bisque;
   padding: 2px;
   font-size: 16px;
